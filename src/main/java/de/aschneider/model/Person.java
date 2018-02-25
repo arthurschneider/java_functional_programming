@@ -37,14 +37,6 @@ public class Person {
     public static  Comparator<Person> comparePersonAgeDescending() {
         return comparePersonAgeAscending().reversed();
     }
-    
-    public static Comparator<Person> comparePersonsNameAscending(){
-        return (p1, p2) -> p1.getName().compareTo(p2.getName());
-    }
-
-    public static Comparator<Person> comparePersonsNameDescending(){
-        return comparePersonsNameAscending().reversed();
-    }
 
     @Override
     public String toString() {
