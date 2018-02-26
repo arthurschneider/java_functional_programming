@@ -8,8 +8,6 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import de.aschneider.model.Person;
-
 public class GetInformationsAboutTheNamesInList {
 
 	public static void main(String[] args) {
